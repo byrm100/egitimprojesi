@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;500;600;700&family=Poppins:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+body{
+    background-color: #F6ECEC;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+
+}
+a{
+    text-decoration: none;
+}
+.maincontainer{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    border-radius: 60px;
+    position: relative;
+}
+/* header section */
+header{
+    height: 75px;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+ul{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+  
+}
+.newitem{
+    font-weight: 400;
+    font-size: 16px;
+    color:#00240F;
+}
+.sign{
+    text-decoration:none;
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:100px;
+    
+}
+/* banner */
+main{
+    height: 300px;
+    display: flex;
+}
+.lefta{
+   width: 50%; 
+   height: 100%;
+   display: flex;
+justify-content: center;
+flex-direction: column;
+padding-left: 50px;
+gap: 20px;
+}
+.righta{
+    width: 50%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        background-color:#000000;
+        opacity:0.6;
+        filter:alpha(opacity=6900);
+
+
+    
+
+
+
+}
+.righta img {
+    width:100%;
+    height: 300px;
+
+    background-image: linear-gradient( to right, rgba(255,0,0,0), rgba(255,0,0,1));
+
+
+
+}
+lefta h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.lefta p{
+font-weight: 500;
+font-size: 24px;}
+
+.orderbot{
+    background-color: red;
+    color: white;
+    width: 100px;
+    padding: 10px 7px;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px 0 red;
+
+}
+.rm{
+text-align: center;
+font-weight: 600;
+font-size: 15px;
+margin-top: 20px;
+}
+.abs1{
+    position: absolute;
+    top:-20px;
+    left: 450px;
+}
+.abs1 img{
+    width:50px;
+}
+.abs2{
+    position: absolute;
+    left: 1000px;
+    top: 350px;
+}
+.abs2 img{
+    width: 195px ;
+    z-index:-1;
+}
